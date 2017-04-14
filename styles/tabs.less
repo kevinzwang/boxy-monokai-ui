@@ -15,6 +15,7 @@
     line-height: @tab-height;
     font-size: @font-size;
     background-color: @tab-background-color;
+
     &.active {
       color: @text-color-selected;
       background-color: @tab-background-color-active;
@@ -52,5 +53,9 @@
         visibility: hidden;
       }
     }
+  }
+  
+  .tab:hover:not(.active){
+      background-color: #363731;
   }
 }

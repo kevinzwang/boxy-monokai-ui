@@ -16,7 +16,17 @@
   color: @text-color;
   background-color: @tree-view-background-color;
 
+  .list-item:hover::before {
+      background-color: #363731;
+      left: 0;
+      right: 0;
+      height: 25px;
+  }
+
   .list-item.selected {
     color: @text-color-selected;
+  }
+  .list-item.selected::before{
+      border-left: 2px solid @background-color-info;
   }
 }
