@@ -2,10 +2,10 @@
   "name": "boxy-monokai-ui",
   "theme": "ui",
   "version": "0.0.1",
-  "description": "A port of the Boxy Monokai UI theme from Sublime Text",
+  "description": "A port of the Boxy Monokai Sublime Text theme",
   "keywords": [
     "ui",
-    "theme"
+    "theme",
     "boxy",
     "monokai",
     "sublime"
